@@ -2,7 +2,7 @@
 
 ## Ievads
 
-Basketbola spēļu rezultātu prognozēšana tiek plaši atzīta par aktuālu izpētes jomu datu analītikā un sporta zinātnē. (https://www.mdpi.com/2076-3417/15/23/12401) Līdz ar datu ievākšanas tehnoloģiju attīstību, sporta nozare kļūst arvien analītiskāka, un spēja precīzi paredzēt spēles iznākumu vai identificēt uzvaru nesošos faktorus sniedz tiešu praktisko labumu treneriem, komandu menedžmentam un sporta stratēģiem lēmumu pieņemšanā.
+Basketbola spēļu rezultātu prognozēšana tiek plaši atzīta par aktuālu izpētes jomu datu analītikā un sporta zinātnē.[1] Līdz ar datu ievākšanas tehnoloģiju attīstību, sporta nozare kļūst arvien analītiskāka, un spēja precīzi paredzēt spēles iznākumu vai identificēt uzvaru nesošos faktorus sniedz tiešu praktisko labumu treneriem, komandu menedžmentam un sporta stratēģiem lēmumu pieņemšanā.
 
 
 
