@@ -14,6 +14,7 @@ Aktualitāti pamato vairāki būtiski izaicinājumi, ko izceļ jaunākie pētīj
 ### Darba un novērtēšanas mērķis
 **Darba mērķis**
 Izstrādāt mašīnmācīšanās prognozēšanas rīku (modeli), kas, integrējot un apstrādājot vēsturiskos un pirmsspēles statistikas datus, spēj automātiski un ar augstu precizitāti prognozēt basketbola spēļu iznākumu.
+
 **Novērtēšanas mērķis**
 Kvantitatīvi un kvalitatīvi izvērtēt izstrādātās sistēmas efektivitāti:
 1. **Veiktspējas novērtēšana:**
