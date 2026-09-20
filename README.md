@@ -22,7 +22,7 @@ Kvantitatīvi un kvalitatīvi izvērtēt izstrādātās sistēmas efektivitāti:
 
 ## Līdzīgo risinājumu pārskats
 
-Pilnu līdzīgo risinājumu aprakstu un analīzi skatīt [šeit](lidzigirisinajumi.md).
+Līdzīgo risinājumu aprakstu un analīzi skatīt [šeit](lidzigirisinajumi.md).
 
 
 ## Atsauces
