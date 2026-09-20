@@ -21,8 +21,8 @@ Izstrādāt mašīnmācīšanās prognozēšanas rīku (modeli), kas, integrējo
 
 **Novērtēšanas mērķis**
 Kvantitatīvi un kvalitatīvi izvērtēt izstrādātās sistēmas efektivitāti:
-1. **Veiktspējas novērtēšana:** Mērīt modeļa spēju precīzi paredzēt rezultātu, izmantojot standartmetrikas – precizitāti (*Accuracy*), *F1-score*, *Recall* un vidējo absolūto procentuālo kļūdu (*MAPE*), salīdzinot dažādu algoritmu veiktspēju [2].
-2. **Faktoru būtiskuma novērtēšana:** Izmantojot datu interpretācijas metodes (*SHAP*), identificēt un izvērtēt, kuri spēles parametri visvairāk ietekmē gala rezultātu [4].
+1. **Veiktspējas novērtēšana:** Mērīt modeļa spēju precīzi paredzēt rezultātu, izmantojot standartmetrikas – precizitāti (*Accuracy*), *F1-score*, *Recall* un vidējo absolūto procentuālo kļūdu (*MAPE*), salīdzinot dažādu algoritmu veiktspēju.
+2. **Faktoru būtiskuma novērtēšana:** Izmantojot datu interpretācijas metodes (*SHAP*), identificēt un izvērtēt, kuri spēles parametri visvairāk ietekmē gala rezultātu.
 
 
 ## Atsauces
