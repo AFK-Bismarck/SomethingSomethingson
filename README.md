@@ -25,6 +25,8 @@ Kvantitatīvi un kvalitatīvi izvērtēt izstrādātās sistēmas efektivitāti:
 2. **Faktoru būtiskuma novērtēšana:**
 
 
+## Līdzīgo risinājumu pārskats
+
 ## Atsauces
 
 [1] Thabtah, F., Zhang, L., & Abdel-Jaber, H. (2019). [NBA Game Result Prediction Using Feature Analysis and Machine Learning](https://www.researchgate.net/publication/330116252_NBA_Game_Result_Prediction_Using_Feature_Analysis_and_Machine_Learning). *ResearchGate*.
