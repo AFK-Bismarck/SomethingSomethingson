@@ -4,3 +4,9 @@ T-Rank: Šis modelis darbojas uz ļoti līdzīgiem pamatiem kā KenPom, analizē
 
 Atsauces
 [1] [Adam's WI Sports Blog](https://adamcwisports.blogspot.com/p/every-possession-counts.html)
+| Risinājuma nosaukums | Galvenā aprēķinu bāze un dati | Unikālā analītiskā iezīme | Prognozes iznākums |
+| --- | --- | --- | --- |
+| **KenPom** | No spēles tempa neatkarīga statistika uz 100 bumbas kontrolēm, Pitagora izredzes (Pythagorean expectation) un Log5 formula. | Novērtē komandas patieso spēku, balstoties uz iegūto un zaudēto punktu attiecību, izslēdzot spēles tempa radītās novirzes. | Uzvaras varbūtība procentos un prognozētā punktu starpība. |
+| **T-Rank (Barttorvik)** | Uzbrukuma un aizsardzības efektivitāte uz 100 bumbas kontrolēm, *Barthag* spēka reitings. | Matemātisks "nesenuma faktors" (recency weight) – automātiski samazina par 40 dienām vecāku spēļu statistisko nozīmi aprēķinos. | Konkrēta mača uzvarētājs un gaidāmais handikaps. |
+| **ESPN BPI** | Bāzes efektivitāte vienas bumbas kontroles ietvaros, kas tieši apvienota ar spēles loģistikas datiem. | Kvantitatīvi aprēķina ārējo apstākļu ietekmi – ceļošanas attālumu, atpūtas dienu trūkumu ("back-to-back" mači) un traumu ietekmi. | Spēles uzvaras varbūtība un spēka reitinga pielāgojumi nākotnei. |
+| **XGBoost (Mašīnmācīšanās)** | Lēmumu koku ansambļa algoritms, kas apmācīts ar 6152 vēsturiskajām spēlēm un 35 ievaddatu pazīmēm. | Lielāko matemātisko svaru prognozē piešķir dinamiskajiem datiem – komandu pēdējo 5 spēļu uzvaru procentuālajai starpībai. | Bināra gala rezultāta klasifikācija (uzvara/zaudējums) neatkarīgā testu kopā ar 73,6% precizitāti.|
