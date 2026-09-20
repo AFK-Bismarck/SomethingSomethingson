@@ -13,6 +13,18 @@ Aktualitāti pamato vairāki būtiski izaicinājumi, ko izceļ jaunākie pētīj
 * **Reāllaika lēmumu pieņemšana:** Mūsdienu izaicinājums ir radīt modeļus, kas spēj apstrādāt spēles datus reāllaikā un nodrošināt augstu precizitāti dažādos spēles posmos [[4]](https://pmc.ncbi.nlm.nih.gov/articles/PMC11265715/).
 * **Izskaidrojamības trūkums (*Black-box* problēma):** Lai gan mašīnmācīšanās modeļi sasniedz augstu precizitāti, sporta nozarei ir kritiski svarīgi saprast *kāpēc* modelis pieņēmis šādu lēmumu. Pētījumos tiek uzsvērta nepieciešamība integrēt izskaidrojamā mākslīgā intelekta (*XAI*) metodes, piemēram, *SHAP* vērtības, lai identificētus svarīgākos spēles rādītājus (piemēram, aizsardzības atlēkušās bumbas un kļūdu skaitu) [[4]](https://pmc.ncbi.nlm.nih.gov/articles/PMC11265715/).
 
+
+## Darba un novērtēšanas mērķis
+
+**Darba mērķis**
+Izstrādāt mašīnmācīšanās prognozēšanas rīku (modeli), kas, integrējot un apstrādājot vēsturiskos un pirmsspēles statistikas datus, spēj automātiski un ar augstu precizitāti prognozēt basketbola spēļu iznākumu.
+
+**Novērtēšanas mērķis**
+Kvantitatīvi un kvalitatīvi izvērtēt izstrādātās sistēmas efektivitāti:
+1. **Veiktspējas novērtēšana:** Mērīt modeļa spēju precīzi paredzēt rezultātu, izmantojot standartmetrikas – precizitāti (*Accuracy*), *F1-score*, *Recall* un vidējo absolūto procentuālo kļūdu (*MAPE*), salīdzinot dažādu algoritmu veiktspēju [2].
+2. **Faktoru būtiskuma novērtēšana:** Izmantojot datu interpretācijas metodes (*SHAP*), identificēt un izvērtēt, kuri spēles parametri visvairāk ietekmē gala rezultātu [4].
+
+
 ## Atsauces
 
 [1] Thabtah, F., Zhang, L., & Abdel-Jaber, H. (2019). [NBA Game Result Prediction Using Feature Analysis and Machine Learning](https://www.researchgate.net/publication/330116252_NBA_Game_Result_Prediction_Using_Feature_Analysis_and_Machine_Learning). *ResearchGate*.
