@@ -1,1 +1,1 @@
-# SomethingSomethingson
+# Basketbola spēles rezultāta prognozēšana
