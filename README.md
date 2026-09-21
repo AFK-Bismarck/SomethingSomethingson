@@ -17,8 +17,8 @@ Izstrādāt mašīnmācīšanās prognozēšanas rīku (modeli), kas, integrējo
 
 **Novērtēšanas mērķis**
 Kvantitatīvi un kvalitatīvi izvērtēt izstrādātās sistēmas efektivitāti:
-1. **Veiktspējas novērtēšana:**
-2. **Faktoru būtiskuma novērtēšana:**
+1. **Veiktspējas novērtēšana**
+2. **Faktoru būtiskuma novērtēšana**
 
 
 ## Līdzīgo risinājumu pārskats
