@@ -25,6 +25,9 @@ Kvantitatīvi un kvalitatīvi izvērtēt izstrādātās sistēmas efektivitāti:
 
 Līdzīgo risinājumu aprakstu un analīzi skatīt [šeit](lidzigirisinajumi.md).
 
+## Prasību formulējums
+
+Prasību formulējumu skatīt [šeit] (prasibu_formulejums.md).
 
 ## Atsauces
 
