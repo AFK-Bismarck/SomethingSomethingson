@@ -8,22 +8,22 @@ Prasību formulējumā ņemti vērā arī līdzīgo risinājumu aprakstā izcelt
 
 ## 2. Sistēmas funkcijas / iezīmes
 
-| ID | Sistēmas funkcija / iezīme | Kodolīgs apraksts | Prioritāte |
+| Nr. | Sistēmas funkcija / iezīme | Apraksts | Prioritāte |
 |---|---|---|---|
-| F-01 | Vēsturisko datu ievade | Sistēmai jāspēj saņemt vēsturisko basketbola spēļu statistikas datus. | Must |
-| F-02 | Pirmsspēles datu ievade | Sistēmai jāspēj saņemt konkrētai spēlei pieejamos pirmsspēles statistikas datus. | Must |
-| F-03 | Datu apstrāde prognozēšanai | Sistēmai jāapkopo un jāizmanto ievaddati tā, lai no tiem varētu iegūt prognozei nepieciešamos rādītājus. | Must |
-| F-04 | Komandu salīdzinošo rādītāju izmantošana | Sistēmai jāņem vērā abu komandu savstarpēji salīdzināmi rādītāji, tostarp uzbrukuma un aizsardzības efektivitāte. | Must |
-| F-05 | Komandu aktuālās formas ņemšana vērā | Sistēmai jāņem vērā komandu pēdējo spēļu rezultāti un aktuālā forma. | Must |
-| F-06 | Spēles konteksta ņemšana vērā | Sistēmai jāņem vērā spēles apstākļi, piemēram, mājas spēles priekšrocība, spēļu grafiks un atpūtas dienas, ja šādi dati ir pieejami. | Should |
-| F-07 | Spēlētāju pieejamības ņemšana vērā | Sistēmai jāņem vērā nozīmīgu spēlētāju pieejamība vai traumu statuss, ja šādi dati ir pieejami. | Should |
-| F-08 | Spēles iznākuma prognoze | Sistēmai jāprognozē konkrētās spēles uzvarētājs. | Must |
-| F-09 | Uzvaras varbūtības prognoze | Sistēmai jānorāda katras komandas uzvaras varbūtība procentos, ja izvēlētais prognozes modelis to nodrošina. | Should |
-| F-10 | Prognozētās punktu starpības iegūšana | Sistēmai jāspēj nodrošināt prognozēto punktu starpību kā papildu prognozes rezultātu. | Could |
-| F-11 | Prognozes skaidrojums | Sistēmai jāparāda faktori, kas būtiski ietekmējuši prognozi. | Should |
-| F-12 | Sistēmas veiktspējas novērtēšana | Sistēmai jānodrošina iespēja kvantitatīvi novērtēt prognožu veiktspēju uz testdatiem. | Must |
-| F-13 | Faktoru būtiskuma novērtēšana | Sistēmai jānodrošina iespēja noteikt, kuri ievaddati visvairāk ietekmē prognozes rezultātu. | Must |
-| F-14 | Reāllaika spēles datu prognozēšana | Sistēmai jāspēj izmantot spēles laikā iegūtus datus un atjaunot prognozi. | Won't (šajā versijā) |
+| 1 | Vēsturisko datu ievade | Sistēmai jāspēj saņemt vēsturisko basketbola spēļu statistikas datus. | Must |
+| 2 | Pirmsspēles datu ievade | Sistēmai jāspēj saņemt konkrētai spēlei pieejamos pirmsspēles statistikas datus. | Must |
+| 3 | Datu apstrāde prognozēšanai | Sistēmai jāapkopo un jāizmanto ievaddati tā, lai no tiem varētu iegūt prognozei nepieciešamos rādītājus. | Must |
+| 4 | Komandu salīdzinošo rādītāju izmantošana | Sistēmai jāņem vērā abu komandu savstarpēji salīdzināmi rādītāji, tostarp uzbrukuma un aizsardzības efektivitāte. | Must |
+| 5 | Komandu aktuālās formas ņemšana vērā | Sistēmai jāņem vērā komandu pēdējo spēļu rezultāti un aktuālā forma. | Must |
+| 6 | Spēles konteksta ņemšana vērā | Sistēmai jāņem vērā spēles apstākļi, piemēram, mājas spēles priekšrocība, spēļu grafiks un atpūtas dienas, ja šādi dati ir pieejami. | Should |
+| 7 | Spēlētāju pieejamības ņemšana vērā | Sistēmai jāņem vērā nozīmīgu spēlētāju pieejamība vai traumu statuss, ja šādi dati ir pieejami. | Should |
+| 8 | Spēles iznākuma prognoze | Sistēmai jāprognozē konkrētās spēles uzvarētājs. | Must |
+| 9 | Uzvaras varbūtības prognoze | Sistēmai jānorāda katras komandas uzvaras varbūtība procentos, ja izvēlētais prognozes modelis to nodrošina. | Should |
+| 10 | Prognozētās punktu starpības iegūšana | Sistēmai jāspēj nodrošināt prognozēto punktu starpību kā papildu prognozes rezultātu. | Could |
+| 11 | Prognozes skaidrojums | Sistēmai jāparāda faktori, kas būtiski ietekmējuši prognozi. | Should |
+| 12 | Sistēmas veiktspējas novērtēšana | Sistēmai jānodrošina iespēja kvantitatīvi novērtēt prognožu veiktspēju uz testdatiem. | Must |
+| 13 | Faktoru būtiskuma novērtēšana | Sistēmai jānodrošina iespēja noteikt, kuri ievaddati visvairāk ietekmē prognozes rezultātu. | Must |
+| 14 | Reāllaika spēles datu prognozēšana | Sistēmai jāspēj izmantot spēles laikā iegūtus datus un atjaunot prognozi. | Won't |
 
 ## 3. Lietotāju stāsti (User Stories)
 
@@ -71,33 +71,33 @@ Prasību formulējumā ņemti vērā arī līdzīgo risinājumu aprakstā izcelt
 
 Šīs funkcijas ir nepieciešamas, lai sistēma izpildītu darba pamatmērķi: izmantotu vēsturiskos un pirmsspēles datus un prognozētu spēles iznākumu, kā arī ļautu novērtēt sistēmas efektivitāti un faktoru būtiskumu.
 
-- F-01 — Vēsturisko datu ievade
-- F-02 — Pirmsspēles datu ievade
-- F-03 — Datu apstrāde prognozēšanai
-- F-04 — Komandu salīdzinošo rādītāju izmantošana
-- F-05 — Komandu aktuālās formas ņemšana vērā
-- F-08 — Spēles iznākuma prognoze
-- F-12 — Sistēmas veiktspējas novērtēšana
-- F-13 — Faktoru būtiskuma novērtēšana
+- F-1: Vēsturisko datu ievade
+- F-2: Pirmsspēles datu ievade
+- F-3: Datu apstrāde prognozēšanai
+- F-4: Komandu salīdzinošo rādītāju izmantošana
+- F-5: Komandu aktuālās formas ņemšana vērā
+- F-8: Spēles iznākuma prognoze
+- F-12: Sistēmas veiktspējas novērtēšana
+- F-13: Faktoru būtiskuma novērtēšana
 
 ### Should have — svarīgi
 
 Šīs funkcijas būtiski papildina prognozes kvalitāti un interpretējamību, taču pamatprognozi iespējams definēt arī bez tām.
 
-- F-06 — Spēles konteksta ņemšana vērā
-- F-07 — Spēlētāju pieejamības ņemšana vērā
-- F-09 — Uzvaras varbūtības prognoze
-- F-11 — Prognozes skaidrojums
+- F-6: Spēles konteksta ņemšana vērā
+- F-7: Spēlētāju pieejamības ņemšana vērā
+- F-9: Uzvaras varbūtības prognoze
+- F-11: Prognozes skaidrojums
 
 ### Could have — vēlams
 
 Šīs funkcijas piešķir papildu vērtību, bet nav nepieciešamas pamatfunkcionalitātes nodrošināšanai.
 
-- F-10 — Prognozētās punktu starpības iegūšana
+- F-10: Prognozētās punktu starpības iegūšana
 
 ### Won't have — nav šīs versijas tvērumā
 
-- F-14 — Reāllaika spēles datu prognozēšana
+- F-14: Reāllaika spēles datu prognozēšana
 
 ## 5. Prasību kopsavilkums
 
